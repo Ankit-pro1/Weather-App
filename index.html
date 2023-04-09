@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="wrapper active">
+    <div class="wrapper">
         <div class="header"><i class="fa-sharp fa-solid fa-arrow-left"></i> Weather App</div>
         <div class="input-part">
-            <p class="txt-info">Please enter a valid city name</p>
+            <p class="txt-info"></p>
             <input type="text" class="input" placeholder="Enter city name" required>
             <div class="separator"></div>
             <button class="btn">Get Device Location</button>
@@ -24,13 +24,13 @@
                 <span class="num">13</span>
                 <span class="deg"> &#8451</span>
             </div>
-            <div class="broken-clouds">Broken Clouds</div>
-            <div class="location"><i class="fa-sharp fa-solid fa-location-dot"></i><span>Bengaluru, Karnataka</span></div>
+            <div class="weather">Broken Clouds</div>
+            <div class="location"><i class="fa-sharp fa-solid fa-location-dot"></i><span>_,_</span></div>
             <div class="bottom-details">
                 <div class="columns feel">
                     <!-- <i class="fa-sharp fa-solid fa-temperature-list"></i> -->
                     <div class="detail">
-                        <span class="num">13</span>
+                        <span class="num1"></span>
                         <span class="deg"> &#8451</span>
                         <p>Feels like</p>
                     </div>
@@ -38,12 +38,14 @@
                 <div class="columns humidity">
                     <!-- <i class="fa-sharp fa-solid fa-droplet-percent"></i> -->
                     <div class="detail">
-                        <span class="num">84%</span>
+                        <span class="num2"></span>
                         <p>Humidity</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="./main.js"></script>
 </body>
 </html>
